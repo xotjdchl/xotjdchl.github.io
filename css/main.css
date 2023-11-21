@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    font-family: "nanumsquare";
+    transform: rotate(0.04deg);
+}
+
+div{
+    box-sizing: border-box;
+    /* display: block; */
+}
+
+.white-box{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin-top: 20px;
+}
+.background{
+    background-color: rgb(237, 246, 255)
+}
+
+.border-left{
+    border-left: 2px solid rgb(177, 177, 177);
+}
+
+@media screen and (max-width: 768px) {
+    .border-left{
+        border-left: none;
+    }
+}
